@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    font-family: 'Raleway', sans-serif;
+}
+
+.icon-logo {
+    width: 45px;
+    height: 45px;
+}
+
+.page-header {
+    margin: 0;
+    background-color: rgb(73, 73, 73);
+}
+
+.page-header span {
+    float: right;
+    padding-top: 10px;
+    font-size: 140%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.page-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.page-header a:hover {
+    color:red;
+}
+
+.page-home {
+    width: 100%;
+    height: 91.6vh;
+    background-color: darkblue;
+}
+
+.i-am {
+    color: white;
+    font-size: 350%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+p { margin:0; }
+
+.what-i-do {
+    color: rgb(255, 0, 0);
+    font-size: 280%;
+    text-align: center;
+}
+
+.what-i-do:hover {
+    color: rgb(240, 135, 135);
+    font-size: 280%;
+    text-align: center;
+}
+
+.box-projects p {
+    text-align: center;
+}
+
+.box-projects {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 41.5%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.box-projects img {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.projects-page p {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.projects-page {
+    width: 100%;
+    height: 95.6vh;
+}
+
+.projects-page hr {
+    text-align: center;
+    width: 30%;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    opacity: 60%;
+}

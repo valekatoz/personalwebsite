@@ -1,0 +1,18 @@
+@media screen and (max-width: 900px) {
+    .col-2 {
+    width: 75%;
+    }
+    .box-projects {
+    margin-left: 12.5%;
+    margin-top: 40px;
+    }
+    .projects-page {
+        margin-top: 20px;
+    }
+    .projects-page hr{
+        margin-top: 40px;
+    }
+    .i-am {
+        margin-top: 50%;
+    }
+  }
